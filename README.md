@@ -1,32 +1,42 @@
 🚔 SETU — AI-Powered Police Assistance Platform
 
-SETU (Smart Enforcement & Tracking Utility) is a unified AI-assisted platform designed to support police personnel by connecting fragmented information, simplifying complaint handling, and providing intelligent assistance for faster and more efficient police operations.
+SETU (Smart Enforcement & Tracking Utility) is a unified police-assistance platform designed to help officers manage complaints, resolve identities, analyze multilingual information, and access connected police records from a single dashboard.
 
-✨ Key Features
-🔎 Identity Resolution — Correlates citizen information across multiple disconnected databases using similarity-based matching.
-🗂️ Multi-Database Integration — Brings together Police Records, Transport Records, Civil Registry, and Criminal Case History into a unified view.
-⚖️ Criminal Case History — Displays previous cases, crime type, case status, year, and historical records for matched identities.
-📝 Smart Complaint Management — Enables officers to file, track, update, and manage citizen complaints from a centralized dashboard.
-🧠 Multilingual Indian NLP — Detects and analyzes text across 10 Indian-language/script categories, including Hindi, Tamil, Telugu, Bengali, Kannada, Gujarati, Punjabi, Malayalam, English, and mixed scripts.
-🚨 Entity & Risk Extraction — Extracts relevant entities and risk-related information from complaint descriptions to assist officers during initial analysis.
-🎙️ Speech-to-Text Assistance — Allows officers to enter information using voice input through browser-based speech recognition.
-🌐 Translation Support — Provides translation assistance for multilingual complaint and information processing.
-👮 Officer Management — Provides secure officer login and displays officer-specific information and attendance history.
-📊 Case Activity Dashboard — Provides an overview of complaint activity and key operational information.
-🔐 Role-Based Access — Supports authenticated officer access to platform modules and data.
-🔗 REST API Backend — Uses an Express.js REST API architecture to connect the frontend with identity, NLP, complaint, attendance, and officer services.
-📁 Persistent Data Storage — Maintains complaint and demonstration police records through structured JSON-based storage.
-🚀 Scalable AI Architecture — The current prototype uses similarity-based identity matching and rule-based NLP, with an architecture that can be extended to trained ML and multilingual NLP models.
-🛠️ Technology Stack
+✨ KEY FEATURES
 
-Frontend:
-🌐 HTML • 🎨 CSS • ⚡ JavaScript
+🔎 Identity Resolution
+• Matches identities across 4 disconnected databases.
+• Generates a unified profile with relevant records.
 
-Backend:
-🟢 Node.js • 🚂 Express.js • 🔗 REST APIs
+📝 Complaint Management
+• File, track, and manage citizen complaints.
+• Automatically performs NLP and identity analysis.
 
-AI / Intelligent Features:
-🧠 NLP • 🔎 Levenshtein Similarity • 🌐 Multilingual Script Detection • 🎙️ Web Speech API
+🧠 Multilingual NLP
+• Supports 10 Indian language/script categories.
+• Provides entity and risk-related information extraction.
 
-Data:
-📂 JSON-based structured storage • 🗄️ Multiple interconnected demo databases
+⚖️ Criminal History
+• Displays previous cases, crime type, year, and case status.
+
+🎙️ Speech-to-Text
+• Enables voice-based information entry using Web Speech API.
+
+👮 Officer Management
+• Secure officer login with individual attendance history.
+
+📊 Case Activity
+• Displays recent complaint activity through a 7-day dashboard.
+
+🛠️ TECH STACK
+
+🌐 HTML5 • CSS3 • JavaScript
+🟢 Node.js • Express.js • REST APIs
+🧠 Rule-Based NLP • Levenshtein Similarity
+🎙️ Web Speech API
+🌍 Google Translation Endpoint
+📂 JSON-based Data Storage
+
+🎯 OBJECTIVE
+
+To provide police personnel with a centralized platform for faster information retrieval, identity matching, multilingual complaint analysis, and efficient case management.
